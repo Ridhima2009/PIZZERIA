@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h3
+{
+	color: rgb(255, 241, 43) !important;
+}
+h2{
+	color: rgb(255, 0, 0) !important;
+}
+#if{
+	color: rgb(255, 230, 0);
+}
+
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Valet Parking </title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>VALET PARKING</h1>
+
+	<!--- Create Canvas--->
+
+
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<br>
+<br>
+
+
+<h3>MOVE THE GREEN CAR WITH ARROW KEYS</h3>
+<h2>
+	<b>NOTE : </b> <b id="if">IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY</b>
+
+</h2>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
